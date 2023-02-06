@@ -1,0 +1,15 @@
+{
+  // 컴파일 옵션
+  "compilerOptions": {
+    "target": "ES2015", // 타입스크립트 버전 변환
+    "module": "ESNext", // 에크마 스크립트의 가장 최신버전으로 설정
+    "moduleResolution": "Node", // 특정한 폴더의 인덱스 파일 생략 가능
+    "esModuleInterop": true, // 이크마 스크립트으와 commonJS호환 true
+    "lib": ["ESNext", "DOM"], // 컵파일 할때 변환할 라이브러리
+    "strict": true // 문법을 엄격하게 검사
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    "node_modules" // 변환 생략
+  ]
+}
