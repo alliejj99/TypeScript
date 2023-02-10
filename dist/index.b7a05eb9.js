@@ -557,9 +557,9 @@ function hmrAccept(bundle, id) {
 }
 
 },{}],"jeorp":[function(require,module,exports) {
-let hello = "false";
-hello = "Hello!";
-console.log(hello);
+// let hello: string = "false";
+// hello = "Hello!";
+// console.log(hello);
 
 },{}]},["cnpQZ","jeorp"], "jeorp", "parcelRequire5b05")
 

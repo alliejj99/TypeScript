@@ -6,7 +6,8 @@
     "moduleResolution": "Node", // 특정한 폴더의 인덱스 파일 생략 가능
     "esModuleInterop": true, // 이크마 스크립트으와 commonJS호환 true
     "lib": ["ESNext", "DOM"], // 컵파일 할때 변환할 라이브러리
-    "strict": true // 문법을 엄격하게 검사
+    "strict": true, // 문법을 엄격하게 검사
+    "typeRoots": ["./node_modules/@types"] // 타입스크립트로 해당 모듈을 읽어오기
   },
   "include": ["src/**/*.ts"],
   "exclude": [

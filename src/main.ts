@@ -1,4 +1,4 @@
-let hello: string = "false";
+// let hello: string = "false";
 
-hello = "Hello!";
-console.log(hello);
+// hello = "Hello!";
+// console.log(hello);
